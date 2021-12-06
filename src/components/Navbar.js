@@ -84,15 +84,16 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+                              href="https://github.com/cdhiraj40/Portfolio-1/blob/master/src/Assets/DHIRAJ_RESUME.pdf"
+                              target="_blank"
+                              rel="noreferrer"
+                // onClick={() => window.open(  "https://github.com/cdhiraj40/Portfolio-1/blob/master/src/Assets/DHIRAJ_RESUME.pdf")}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumyajit.tech/"
                 target="_blank"
@@ -111,7 +112,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

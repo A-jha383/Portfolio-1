@@ -3,12 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import mentisRem from "../../Assets/mentis_rem.jpg";
+import emotion from "../../Assets/1.jpeg";
+import nutriFit from "../../Assets/NutriFitLogo.jpg";
+import flappyBird from "../../Assets/flappyBird.png";
+import ItsNotSoWeird from "../../Assets/ItsNotSoWeird.png";
+import bitsOfCode from "../../Assets/about.png";
 
 function Projects() {
   return (
@@ -24,31 +24,48 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mentisRem}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="MENTIS-REM"
+              description="An app made during the hackathon Hackfit
+              under 48 Hrs conducted by MLH.                                  
+               The app solely built to help the mental health
+              of the users. 
+               The app can be used to track how your mental
+              health has been throughout the day and how
+              much it has varied since the past few days.
+              The app was made using KOTLIN, Room Database and coroutines."
+              link="https://github.com/cdhiraj40/MENTIS-REM-HACKFIT-2021"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={nutriFit}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="NutriFit"
+              description="An app which tracks your nutrition info and
+              helps you manage your food intake. The
+              app will provide a platform for enabling a
+              healthy lifestyle. It will also suggest foods as
+              per requirements. It was made using Android(Java), the database used was firebase and MySql"
+              link="https://github.com/anamansari062/NutritionApp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ItsNotSoWeird}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="ItsNotSoWeird"
+              description="A website made during the hackathon
+              HACKNITR3.0 under 32 Hrs
+              • Website made to talk about sexual awareness
+              and Sexual hygiene openly.
+              • The site contains information about the best
+              way to maintain proper hygiene.
+              • It also has a HygieneChatBot which can answer all your questions about sexual awareness and Sexual hygiene. The Website was built using JavaScript, CSS, HTML5, DialogFlow"
+              link="https://jwala.me/itsnotsoweird/"
             />
           </Col>
 
@@ -56,30 +73,35 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Pogger Bot"
+              description="A user friendly bot which provides inside jokes to the server with variety of features like Sending pictures using characters, images to ASCII converter, Music playing and 24/7 online
+              It was built using Python."
+              link="https://github.com/cdhiraj40/PoggerBot"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Mad-Libs Bot"
+              description="Another user friendly bot but with different usage.This bot will make you laugh with your own funny words. It has features like providing funny phrases with user’s inputs, timeout feature and yes being 24/7 online.
+              It was built using Python."
+              link="https://github.com/cdhiraj40/MAD-LIBS-BOT"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={flappyBird}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Flappy Bird"
+              description="Flappy Bird is an arcade game in which the player controls the bird Faby, who is always moving to the right. Faby must be navigated via pairs of pipes with equal-sized holes inserted at various heights by the user.
+              Has different Background that gives it a more realistic view.
+              Shows the score after the game ends.
+              Redirects to the start after pressing the Enter Key.
+              The Tech stack used was Python with PyGame Library"
+              link="https://github.com/cdhiraj40/Flappy_bird"
             />
           </Col>
         </Row>
