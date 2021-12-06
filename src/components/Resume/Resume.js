@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/DHIRAJ_RESUME.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,7 +42,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend Developer Intern [Flash Tech]"
+              title="Android Developer Intern [XIRCLS-Collaborative Marketing Saas]"
               date="July 2021 - September 2021"
               content={[
                 "Worked on the development of an E-commerce website",
