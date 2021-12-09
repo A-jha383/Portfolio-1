@@ -13,7 +13,6 @@ function AboutCard() {
             <br/>
             I am passionate about programming and wanna explore more fields in this domain.
             I love the idea of giving back to the community. In my free time I like working on open source projects.
-            <br/>
             Apart from coding, I like to listen to LO-FI Music
           </p>
         </blockquote>
